@@ -37,7 +37,7 @@ p.small {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: #22272A;
+    color: #000;
 }
 small, .small {
     font-size: 65%!important;
@@ -89,13 +89,24 @@ hr.star-primary:after {
     color: #1abc9c!important;
 }
 .color-black {
-    color: #111!important;
+    color: #000!important;
+}
+.color-blacks {
+    color: #000!important;
+	font-size: 25px
 }
 .color-grey {
     color: #2E3639!important;
 }
 .color-yellow {
-    color: #1abc9c!important;
+    color: #fff67f!important;
+}
+.color-yellows {
+    color: #fff67f!important;
+	background: #310000!important;
+}
+.color-red {
+    color: #910000!important;
 }
 .no-border {
     border-radius: 0!important;
@@ -105,6 +116,9 @@ hr.star-primary:after {
 }
 .border-white {
     border-color: #FFF!important;
+}
+.border-red {
+    border-color: #910000!important;
 }
 .border-grey {
     border-color: #2E3639!important;
@@ -179,7 +193,7 @@ hr.star-primary:after {
     text-transform: capitalize!important;
     color: #222!important;
     position: relative;
-    font-family: 'Mrs Sheppards', cursive!important;
+    font-family: "times new roman"!important;
     right: -25px;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -420,8 +434,8 @@ section .ray-bottom {
     padding: 10px 21px;
     /* border: 4px solid #fff; */
 
-    background: #1abc9c;
-    color: #fff;
+    background: #310000;
+    color: #fff67f;
 }
 .intro-text h4 span {
     /* background: rgba(0,0,0,0.9); */
@@ -1026,7 +1040,7 @@ ABOUT ME
     color: #ffffff;
 }
 .e-campuz {
-    background: #1abc9c;
+    background: #910000;
     color: #ffffff!important;
     z-index: 0;
     overflow: hidden;
@@ -1098,7 +1112,7 @@ ABOUT ME
     height: 0;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
-    border-top: 50px solid #1abc9c;
+    border-top: 50px solid #920000;
     position: absolute;
     top: 0;
     left: 10%;
@@ -1403,7 +1417,7 @@ PORTFOLIO
     .arrow-down {
         border-left: 23px solid transparent;
         border-right: 23px solid transparent;
-        border-top: 30px solid #1abc9c;
+        border-top: 30px solid #910000;
     }
     .about-nest h2 {
         font-weight: 100;
